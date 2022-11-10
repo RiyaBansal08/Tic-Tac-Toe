@@ -1,0 +1,41 @@
+.col{
+    padding: 20px; 
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.heading{
+   margin-bottom: 15px;
+   background-color: rgb(228, 48, 102);
+   color: white;
+   padding: 5px 350px;
+   display: flex;
+}
+.player{
+    font-size: 30px;
+    margin: 5px 20px;
+}
+.turn{
+    margin-right: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.row{
+    min-width: 380px;
+    min-height: 75px;
+}
+
+.right{
+    border-right: 4px solid rgb(6, 124, 6);
+}
+.top{
+    border-top: 4px solid rgb(6, 124, 6);
+}
